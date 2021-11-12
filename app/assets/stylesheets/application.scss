@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+     font-family: fantasy;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.apart{
+    text-align: center;
+}
+
+ .page-head{
+    background-color:wheat;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    background-color:wheat;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+@import 'bootstrap'
